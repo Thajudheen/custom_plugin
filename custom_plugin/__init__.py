@@ -1,4 +1,4 @@
-#from githubcommit.handlers import setup_handlers
+from custom_plugin.handlers import setup_handlers
 # Jupyter Extension points
 def _jupyter_server_extension_paths():
     return [{
