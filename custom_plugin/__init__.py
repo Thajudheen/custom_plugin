@@ -2,15 +2,15 @@ from custom_plugin.handlers import setup_handlers
 # Jupyter Extension points
 def _jupyter_server_extension_paths():
     return [{
-        'module': 'custom_plugin',
+        'module': 'githubcommit',
     }]
 
 def _jupyter_nbextension_paths():
     return [{
         "section": "notebook",
-        "dest": "custom_plugin",
+        "dest": "githubcommit",
         "src": "static",
-        "require": "custom_plugin/main"
+        "require": "githubcommit/main"
     }]
 
  def load_jupyter_server_extension(nbapp):
