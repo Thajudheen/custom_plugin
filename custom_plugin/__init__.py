@@ -13,5 +13,5 @@ def _jupyter_nbextension_paths():
         "require": "custom_plugin/main"
     }]
 
-#def load_jupyter_server_extension(nbapp):
-#    setup_handlers(nbapp.web_app)
+ def load_jupyter_server_extension(nbapp):
+     setup_handlers(nbapp.web_app)
