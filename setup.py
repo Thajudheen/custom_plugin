@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="custom_plugin",
+    name="githubcommit",
     version='0.1.0',
     url="https://github.com/Thajudheen/custom_plugin",
     author="Thaj",
@@ -12,5 +12,5 @@ setuptools.setup(
         'notebook',
         'gitpython'
     ],
-    package_data={'custom_plugin': ['static/*']},
+    package_data={'githubcommit': ['static/*']},
 )
