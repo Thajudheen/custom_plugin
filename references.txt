@@ -1,0 +1,5 @@
+https://carreau.gitbooks.io/jupyter-book/content/notebook-extensions.html
+https://blog.dominodatalab.com/interactive-dashboards-in-jupyter/
+https://stackoverflow.com/questions/45528518/jupyter-simple-frontend-button-javascript-fails-to-validate
+
+https://jupyter-notebook.readthedocs.io/en/stable/extending/frontend_extensions.html (official jypyter doc)
