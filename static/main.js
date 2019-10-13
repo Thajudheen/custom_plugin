@@ -21,6 +21,8 @@ define([
         var full_action_name = Jupyter.actions.register(action, action_name, prefix); // returns 'my_extension:show-alert'
         Jupyter.toolbar.add_buttons_group([full_action_name]);
     }
+    
+ 
 
     return {
         load_ipython_extension: load_ipython_extension
